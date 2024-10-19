@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Weather Update</h1>
+        <div class="search-box">
+            <input type="text" id="location-input" placeholder="Enter location">
+            <button id="submit-btn">Get Weather</button>
+        </div>
+        <div class="weather-info">
+            <div class="fouth-container">
+                <div class="first-container">
+                    <h3 class="location" id="location-name">Location Name
+                    </h3>
+                    <span class="country" id="location-country">Country</span>
+                </div>
+                <div class="second-container">
+                    <p class="temperature" id="current-temperature">Temperature</p>
+                </div>
+            </div>
+            <div class="third-container">
+                <p class="local-time">
+                    Current Date and Time:
+                    <span id="location-local-time"></span>
+                </p>
+                <p class="feels-like">
+                    Feels Like:
+                    <span id="feels-like-temperature"></span>
+                </p>
+                <p class="humidity">
+                    Humidity:
+                    <span id="humidity"></span>
+                </p>
+                <p class="wind-speed">
+                    Wind Speed:
+                    <span id="wind-speed"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
